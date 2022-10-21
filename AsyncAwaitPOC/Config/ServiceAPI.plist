@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseURL</key>
+	<string>https://api.themoviedb.org/3/movie/upcoming?api_key=</string>
+	<key>apiKey</key>
+	<string>da9bc8815fb0fc31d5ef6b3da097a009</string>
+	<key>movieCredit</key>
+	<string>https://api.themoviedb.org/3/movie/movieId/credits?api_key=apiKey</string>
+	<key>movieReview</key>
+	<string>https://api.themoviedb.org/3/movie/movieId/reviews?api_key=apiKey</string>
+</dict>
+</plist>

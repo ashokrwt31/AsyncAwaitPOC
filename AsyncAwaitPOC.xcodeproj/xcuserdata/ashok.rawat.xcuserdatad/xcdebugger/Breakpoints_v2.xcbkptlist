@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8979FD54-1838-457B-B1D8-E9D57BB2E882"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "129137DF-DC0F-4F21-A3EB-CF0746C324DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncAwaitPOC/Movies/ViewModel/ARMoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "callMoviesAPIAsyncAwait(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E838AAC-78C3-4D90-A838-837F2B23765F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncAwaitPOC/Extension/UIImageView+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "asynAwaitloadImageUsingCacheFromURL(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E838AAC-78C3-4D90-A838-837F2B23765F - e80039d7b25ab515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for __C.UIImageView.asynAwaitloadImageUsingCacheFromURL(Foundation.URL) async throws -&gt; ()"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Extension/UIImageView+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "0E838AAC-78C3-4D90-A838-837F2B23765F - e80039d7b25ab515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for __C.UIImageView.asynAwaitloadImageUsingCacheFromURL(Foundation.URL) async throws -&gt; ()"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Extension/UIImageView+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "0E838AAC-78C3-4D90-A838-837F2B23765F - 69bf6f25c149530a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for __C.UIImageView.asynAwaitloadImageUsingCacheFromURL(Foundation.URL) async throws -&gt; ()"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Extension/UIImageView+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "0E838AAC-78C3-4D90-A838-837F2B23765F - 69bf6f25c149530a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for __C.UIImageView.asynAwaitloadImageUsingCacheFromURL(Foundation.URL) async throws -&gt; ()"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Extension/UIImageView+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "539773BD-21B0-49E0-9988-2135A7086410"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncAwaitPOC/Movies/Controller/ARMovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "apiCallUsingClosure()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "539773BD-21B0-49E0-9988-2135A7086410 - 3b1280658352af1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AsyncAwaitPOC.ARMovieResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncAwaitPOC.ARMovieViewController.apiCallUsingClosure() -&gt; ()"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Movies/Controller/ARMovieViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "539773BD-21B0-49E0-9988-2135A7086410 - f7805598d23a3efe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;AsyncAwaitPOC.ARMovieResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncAwaitPOC.ARMovieViewController.apiCallUsingClosure() -&gt; ()"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Movies/Controller/ARMovieViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9A632DF-0EA7-4E9B-A10A-394B55FEA1B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncAwaitPOC/Movies/Details/Controller/ARMovieDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9037C8B-8908-4443-9325-4B62354E3008"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncAwaitPOC/Movies/Details/Views/ARMovieCastCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "creditCellConfiguration(cast:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB8FFAA6-5CE0-4B25-B75B-B26DD507BAFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncAwaitPOC/Movies/Home/ViewModel/ARMoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "callMoviesAPIAsyncAwait(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB8FFAA6-5CE0-4B25-B75B-B26DD507BAFA - 3d5ba92e4d697313"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for AsyncAwaitPOC.ARMoviesViewModel.callMoviesAPIAsyncAwait&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(&#x3c4;_0_0.Type) async throws -&gt; Swift.Optional&lt;Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;&gt;"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Movies/Home/ViewModel/ARMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "DB8FFAA6-5CE0-4B25-B75B-B26DD507BAFA - a26db3d24897da92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for AsyncAwaitPOC.ARMoviesViewModel.callMoviesAPIAsyncAwait&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(&#x3c4;_0_0.Type) async throws -&gt; Swift.Optional&lt;Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;&gt;"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Movies/Home/ViewModel/ARMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "DB8FFAA6-5CE0-4B25-B75B-B26DD507BAFA - 4a1e8e50ca4a3511"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for AsyncAwaitPOC.ARMoviesViewModel.callMoviesAPIAsyncAwait&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(&#x3c4;_0_0.Type) async throws -&gt; Swift.Optional&lt;Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;&gt;"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Movies/Home/ViewModel/ARMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "DB8FFAA6-5CE0-4B25-B75B-B26DD507BAFA - 92a31e138ad59564"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for AsyncAwaitPOC.ARMoviesViewModel.callMoviesAPIAsyncAwait&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(&#x3c4;_0_0.Type) async throws -&gt; Swift.Optional&lt;Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;&gt;"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Movies/Home/ViewModel/ARMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "DB8FFAA6-5CE0-4B25-B75B-B26DD507BAFA - 92a31e138ad5942e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for AsyncAwaitPOC.ARMoviesViewModel.callMoviesAPIAsyncAwait&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(&#x3c4;_0_0.Type) async throws -&gt; Swift.Optional&lt;Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;&gt;"
+                  moduleName = "AsyncAwaitPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashok.rawat/Documents/Ashok%20R/Medium-Blogs/AsyncAwaitPOC/AsyncAwaitPOC/Movies/Home/ViewModel/ARMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9AA2670-127B-427B-9840-1A7A93150922"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncAwaitPOC/Movies/Home/ViewModel/ARMoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "callMoviesAPI(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,9 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D937067628E9B05B008388A6 /* ARMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937067528E9B05B008388A6 /* ARMovieViewController.swift */; };
+		D937067E28EAA43C008388A6 /* ServiceAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = D937067C28EAA43C008388A6 /* ServiceAPI.plist */; };
+		D937067F28EAA43C008388A6 /* ARConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937067D28EAA43C008388A6 /* ARConfig.swift */; };
+		D937068128EAA49F008388A6 /* ARAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937068028EAA49F008388A6 /* ARAPI.swift */; };
+		D937068528EAB94E008388A6 /* ARActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937068328EAB94E008388A6 /* ARActivityIndicator.swift */; };
+		D937068628EAB94E008388A6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937068428EAB94E008388A6 /* UIImageView+Extension.swift */; };
+		D937068E28EC00C9008388A6 /* ARMovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937068D28EC00C9008388A6 /* ARMovieDetailVC.swift */; };
+		D937069028EC00DB008388A6 /* ARMovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937068F28EC00DB008388A6 /* ARMovieDetailViewModel.swift */; };
+		D937069228EC00F1008388A6 /* ARMovieCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937069128EC00F1008388A6 /* ARMovieCredit.swift */; };
+		D937069428EC00FF008388A6 /* ARMovieReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937069328EC00FF008388A6 /* ARMovieReview.swift */; };
+		D937069F28EC0233008388A6 /* ARMovieCastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937069D28EC0233008388A6 /* ARMovieCastCell.swift */; };
+		D93706A028EC0233008388A6 /* ARMovieCastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D937069E28EC0233008388A6 /* ARMovieCastCell.xib */; };
+		D93706A328EC0244008388A6 /* ARMovieReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93706A128EC0244008388A6 /* ARMovieReviewCell.swift */; };
+		D93706A428EC0244008388A6 /* ARMovieReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93706A228EC0244008388A6 /* ARMovieReviewCell.xib */; };
+		D93706A628EC06CD008388A6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93706A528EC06CD008388A6 /* String+Extension.swift */; };
+		D966609D28E9A8920085ED4A /* ARNewtworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D966609C28E9A8920085ED4A /* ARNewtworkManager.swift */; };
+		D966609F28E9AC3C0085ED4A /* ARMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D966609E28E9AC3C0085ED4A /* ARMoviesViewModel.swift */; };
+		D96660A128E9AC4E0085ED4A /* ARMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96660A028E9AC4E0085ED4A /* ARMovie.swift */; };
+		D96660A628E9AC810085ED4A /* ARMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96660A428E9AC810085ED4A /* ARMovieCell.swift */; };
+		D96660A728E9AC810085ED4A /* ARMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96660A528E9AC810085ED4A /* ARMovieCell.xib */; };
 		D9B10FA828E7157000BD56FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B10FA728E7157000BD56FA /* AppDelegate.swift */; };
 		D9B10FAA28E7157000BD56FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B10FA928E7157000BD56FA /* SceneDelegate.swift */; };
-		D9B10FAC28E7157000BD56FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B10FAB28E7157000BD56FA /* ViewController.swift */; };
 		D9B10FAF28E7157000BD56FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B10FAD28E7157000BD56FA /* Main.storyboard */; };
 		D9B10FB128E7157500BD56FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B10FB028E7157500BD56FA /* Assets.xcassets */; };
 		D9B10FB428E7157500BD56FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B10FB228E7157500BD56FA /* LaunchScreen.storyboard */; };
@@ -36,10 +55,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D937067528E9B05B008388A6 /* ARMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieViewController.swift; sourceTree = "<group>"; };
+		D937067C28EAA43C008388A6 /* ServiceAPI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ServiceAPI.plist; sourceTree = "<group>"; };
+		D937067D28EAA43C008388A6 /* ARConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfig.swift; sourceTree = "<group>"; };
+		D937068028EAA49F008388A6 /* ARAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAPI.swift; sourceTree = "<group>"; };
+		D937068328EAB94E008388A6 /* ARActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARActivityIndicator.swift; sourceTree = "<group>"; };
+		D937068428EAB94E008388A6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		D937068D28EC00C9008388A6 /* ARMovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieDetailVC.swift; sourceTree = "<group>"; };
+		D937068F28EC00DB008388A6 /* ARMovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieDetailViewModel.swift; sourceTree = "<group>"; };
+		D937069128EC00F1008388A6 /* ARMovieCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieCredit.swift; sourceTree = "<group>"; };
+		D937069328EC00FF008388A6 /* ARMovieReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieReview.swift; sourceTree = "<group>"; };
+		D937069D28EC0233008388A6 /* ARMovieCastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieCastCell.swift; sourceTree = "<group>"; };
+		D937069E28EC0233008388A6 /* ARMovieCastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARMovieCastCell.xib; sourceTree = "<group>"; };
+		D93706A128EC0244008388A6 /* ARMovieReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieReviewCell.swift; sourceTree = "<group>"; };
+		D93706A228EC0244008388A6 /* ARMovieReviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARMovieReviewCell.xib; sourceTree = "<group>"; };
+		D93706A528EC06CD008388A6 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D966609C28E9A8920085ED4A /* ARNewtworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARNewtworkManager.swift; sourceTree = "<group>"; };
+		D966609E28E9AC3C0085ED4A /* ARMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMoviesViewModel.swift; sourceTree = "<group>"; };
+		D96660A028E9AC4E0085ED4A /* ARMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovie.swift; sourceTree = "<group>"; };
+		D96660A428E9AC810085ED4A /* ARMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMovieCell.swift; sourceTree = "<group>"; };
+		D96660A528E9AC810085ED4A /* ARMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARMovieCell.xib; sourceTree = "<group>"; };
 		D9B10FA428E7157000BD56FA /* AsyncAwaitPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B10FA728E7157000BD56FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9B10FA928E7157000BD56FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9B10FAB28E7157000BD56FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9B10FAE28E7157000BD56FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9B10FB028E7157500BD56FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B10FB328E7157500BD56FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +114,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D937067B28EAA411008388A6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D937067D28EAA43C008388A6 /* ARConfig.swift */,
+				D937067C28EAA43C008388A6 /* ServiceAPI.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D937068228EAB93C008388A6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D937068328EAB94E008388A6 /* ARActivityIndicator.swift */,
+				D937068428EAB94E008388A6 /* UIImageView+Extension.swift */,
+				D93706A528EC06CD008388A6 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D937068728EC006D008388A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9B10FDC28E715BE00BD56FA /* Model */,
+				D9B10FDB28E715B300BD56FA /* ViewModel */,
+				D9B10FDA28E715AD00BD56FA /* Controller */,
+				D9B10FD928E715A800BD56FA /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D937068828EC0084008388A6 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D937068C28EC00AA008388A6 /* Views */,
+				D937068B28EC00A5008388A6 /* Controller */,
+				D937068A28EC00A0008388A6 /* Model */,
+				D937068928EC0096008388A6 /* ViewModel */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D937068928EC0096008388A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D937068F28EC00DB008388A6 /* ARMovieDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D937068A28EC00A0008388A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D937069128EC00F1008388A6 /* ARMovieCredit.swift */,
+				D937069328EC00FF008388A6 /* ARMovieReview.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D937068B28EC00A5008388A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D937068D28EC00C9008388A6 /* ARMovieDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D937068C28EC00AA008388A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D937069D28EC0233008388A6 /* ARMovieCastCell.swift */,
+				D937069E28EC0233008388A6 /* ARMovieCastCell.xib */,
+				D93706A128EC0244008388A6 /* ARMovieReviewCell.swift */,
+				D93706A228EC0244008388A6 /* ARMovieReviewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D9B10F9B28E7157000BD56FA = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +214,12 @@
 		D9B10FA628E7157000BD56FA /* AsyncAwaitPOC */ = {
 			isa = PBXGroup;
 			children = (
+				D937068228EAB93C008388A6 /* Extension */,
+				D937067B28EAA411008388A6 /* Config */,
+				D9B10FD828E7159200BD56FA /* Movies */,
+				D9B10FD728E7158A00BD56FA /* NetworkManager */,
 				D9B10FA728E7157000BD56FA /* AppDelegate.swift */,
 				D9B10FA928E7157000BD56FA /* SceneDelegate.swift */,
-				D9B10FAB28E7157000BD56FA /* ViewController.swift */,
 				D9B10FAD28E7157000BD56FA /* Main.storyboard */,
 				D9B10FB028E7157500BD56FA /* Assets.xcassets */,
 				D9B10FB228E7157500BD56FA /* LaunchScreen.storyboard */,
@@ -125,6 +243,57 @@
 				D9B10FCA28E7157500BD56FA /* AsyncAwaitPOCUITestsLaunchTests.swift */,
 			);
 			path = AsyncAwaitPOCUITests;
+			sourceTree = "<group>";
+		};
+		D9B10FD728E7158A00BD56FA /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				D966609C28E9A8920085ED4A /* ARNewtworkManager.swift */,
+				D937068028EAA49F008388A6 /* ARAPI.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		D9B10FD828E7159200BD56FA /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				D937068728EC006D008388A6 /* Home */,
+				D937068828EC0084008388A6 /* Details */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		D9B10FD928E715A800BD56FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D96660A428E9AC810085ED4A /* ARMovieCell.swift */,
+				D96660A528E9AC810085ED4A /* ARMovieCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9B10FDA28E715AD00BD56FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D937067528E9B05B008388A6 /* ARMovieViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9B10FDB28E715B300BD56FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D966609E28E9AC3C0085ED4A /* ARMoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D9B10FDC28E715BE00BD56FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D96660A028E9AC4E0085ED4A /* ARMovie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +400,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93706A028EC0233008388A6 /* ARMovieCastCell.xib in Resources */,
 				D9B10FB428E7157500BD56FA /* LaunchScreen.storyboard in Resources */,
+				D93706A428EC0244008388A6 /* ARMovieReviewCell.xib in Resources */,
+				D937067E28EAA43C008388A6 /* ServiceAPI.plist in Resources */,
 				D9B10FB128E7157500BD56FA /* Assets.xcassets in Resources */,
 				D9B10FAF28E7157000BD56FA /* Main.storyboard in Resources */,
+				D96660A728E9AC810085ED4A /* ARMovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +431,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B10FAC28E7157000BD56FA /* ViewController.swift in Sources */,
+				D937067628E9B05B008388A6 /* ARMovieViewController.swift in Sources */,
+				D937068528EAB94E008388A6 /* ARActivityIndicator.swift in Sources */,
+				D966609D28E9A8920085ED4A /* ARNewtworkManager.swift in Sources */,
+				D93706A328EC0244008388A6 /* ARMovieReviewCell.swift in Sources */,
+				D937067F28EAA43C008388A6 /* ARConfig.swift in Sources */,
 				D9B10FA828E7157000BD56FA /* AppDelegate.swift in Sources */,
+				D96660A628E9AC810085ED4A /* ARMovieCell.swift in Sources */,
 				D9B10FAA28E7157000BD56FA /* SceneDelegate.swift in Sources */,
+				D937069028EC00DB008388A6 /* ARMovieDetailViewModel.swift in Sources */,
+				D937069428EC00FF008388A6 /* ARMovieReview.swift in Sources */,
+				D93706A628EC06CD008388A6 /* String+Extension.swift in Sources */,
+				D937068E28EC00C9008388A6 /* ARMovieDetailVC.swift in Sources */,
+				D937068628EAB94E008388A6 /* UIImageView+Extension.swift in Sources */,
+				D937069228EC00F1008388A6 /* ARMovieCredit.swift in Sources */,
+				D966609F28E9AC3C0085ED4A /* ARMoviesViewModel.swift in Sources */,
+				D937069F28EC0233008388A6 /* ARMovieCastCell.swift in Sources */,
+				D937068128EAA49F008388A6 /* ARAPI.swift in Sources */,
+				D96660A128E9AC4E0085ED4A /* ARMovie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
